@@ -1,0 +1,11 @@
+{
+  "name": "grill",
+  "description": "grill-me and grilling skills: a relentless interview that stress-tests a plan, decision, or design through AskUserQuestion rounds.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Suolumi"
+  },
+  "homepage": "https://github.com/Suolumi/grill-me-claude",
+  "license": "MIT",
+  "keywords": ["grill", "interview", "planning", "design", "skills"]
+}

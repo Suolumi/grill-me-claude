@@ -17,4 +17,19 @@ Both skills come from Matt Pocock's [mattpocock/skills](https://github.com/mattp
 
 ## Install
 
-Copy both directories into `~/.claude/skills/`. `grill-me` only invokes `grilling`, so install both.
+As a Claude Code plugin:
+
+```
+/plugin install grill --marketplace Suolumi/grill-me-claude
+```
+
+On older Claude Code versions, add the marketplace first:
+
+```
+/plugin marketplace add Suolumi/grill-me-claude
+/plugin install grill@grill-me-claude
+```
+
+The skills are then available as `/grill:grill-me` and `/grill:grilling`.
+
+Or as standalone skills: copy both directories from `plugins/grill/skills/` into `~/.claude/skills/`. `grill-me` only invokes `grilling`, so install both.

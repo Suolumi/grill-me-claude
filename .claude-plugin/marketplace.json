@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "grill-me-claude",
+  "description": "grill-me and grilling skills for Claude Code",
+  "owner": {
+    "name": "Suolumi"
+  },
+  "plugins": [
+    {
+      "name": "grill",
+      "description": "grill-me and grilling skills: a relentless interview that stress-tests a plan, decision, or design through AskUserQuestion rounds.",
+      "source": "./plugins/grill",
+      "category": "productivity",
+      "author": {
+        "name": "Suolumi"
+      },
+      "homepage": "https://github.com/Suolumi/grill-me-claude"
+    }
+  ]
+}
